@@ -8,7 +8,7 @@ The code for both tasks is contained in a single jupyter notebook. The notebook 
 3. Pre-Process the text by removing @ values and stripping white space
 4. Tokenize the data using BERT tokenizer
 5. Split the data into batches for each of train/test/validation to be iteratively executed
-6. For each iteration of the BertClassifier model we: transforming the feature vector using BERTModel, feeding forward the feature vector through the neural network, backpropagating the loss function and finally storing the results for every 10 batches.
+6. For each iteration of the BertClassifier model we: transform the feature vector using BERTModel, feeding forward the feature vector through the neural network, backpropagate the loss function and finally store the results for every 10 batches.
 7. Visualise the training loss and validation accuracy before evaluating the test dataset against the final model. 
 
 ## Execution
